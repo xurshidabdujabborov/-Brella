@@ -1,0 +1,60 @@
+.Plan {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.Plan .left {
+    text-align: left;
+}
+
+.Plan .left h2.title {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.Plan .img {
+    text-align: right;
+}
+
+.Plan .box {
+    text-align: left;
+}
+
+.Plan .box h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #F0A446;
+}
+.Plan .box p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #214E41;
+    margin-top: 15px;
+}
+.Plan .img1{
+    margin-top: 120px;
+    text-align: left;
+}
+.Plan .left a{
+    margin-top: 20px;
+}
+@media(max-width: 900px){
+    .Plan .left{
+        text-align: center;
+    }
+    .Plan .img{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .Plan .box{
+        text-align: center;
+        margin: 40px 0px;
+    }
+    .Plan .img1{
+        text-align: center;
+    }
+}

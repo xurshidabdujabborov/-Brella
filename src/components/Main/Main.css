@@ -1,0 +1,60 @@
+main{
+    width: 100%;
+    margin-top: 130px;
+    z-index: 0;
+}
+main .left{
+    text-align: left;
+}
+main .left span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #43806C;
+}
+main .left h2.title{
+    margin-top: 20px;
+}
+main .left p.text{
+    margin-top: 35px;
+}
+main .left a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #214E41;
+    display: block;
+    margin-top: 20px;
+}
+main .right{
+    display: flex;
+    align-items: center;
+}
+main .right .card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+main .right .card h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #214E41;
+}
+main .right .card p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #214E41;
+    margin-top: 30px;
+}
+main .right .img{
+  margin-left: 20%;
+}
+main .right .img img{
+    margin: 0px 30px;
+}

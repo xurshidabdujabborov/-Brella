@@ -1,0 +1,30 @@
+.Work{
+    width: 100%;
+    margin-top: 120px;
+}
+.Work .box{
+   text-align: left;
+}
+.Work .box a{
+    margin: 20px 0px;
+    text-align: left;
+}
+.Work .box h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #214E41;
+}
+@media(max-width: 900px){
+    .Work .box{
+        margin: 50px 0px;
+        text-align: center;
+    }
+    .Work .box img{
+        width: 98%;
+    }
+    .Work .box a{
+        text-align: center;
+    }
+}

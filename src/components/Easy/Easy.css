@@ -1,0 +1,20 @@
+.Easy{
+    width: 100%;
+    background-image: url("../../assets/main.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0px;
+}
+.Easy .left{
+    text-align: left;
+}
+.Easy .left a{
+    margin-top: 20px;
+}
+.Easy .left h2.title{
+    margin-top: 20px;
+}
+.Easy .left p.text{
+    margin-top: 35px;
+}

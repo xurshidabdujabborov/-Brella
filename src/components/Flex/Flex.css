@@ -1,0 +1,49 @@
+.Flex {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.Flex .box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Flex .box .card {
+    width: 50%;
+    background: #E3EEED;
+    padding: 120px 0px;
+    padding-left: 120px;
+}
+
+.Flex .box .card a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #214E41;
+    text-transform: uppercase;
+}
+
+.Flex .box .card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #43806C;
+    margin: 15px 0px;
+}
+
+.Flex .box .card1 {
+    width: 50%;
+    background: #214E41;
+    padding: 160px 0px;
+    padding-left: 120px;
+}
+.Flex .box .card1 p.text{
+    color: #FFFFFF;
+}
+@media(max-width: 900px){
+    .Flex{
+     display: none;
+    }
+}

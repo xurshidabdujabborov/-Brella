@@ -1,0 +1,79 @@
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    padding: 30px 0px;
+    background-color: white;
+}
+
+nav .img {
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0px 30px;
+}
+
+nav ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #214E41;
+}
+
+nav ul button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    padding: 10px 14px;
+    background: #43806C;
+    border-radius: 6px;
+    border: none;
+}
+nav ul button:hover{
+    cursor: pointer;
+}
+nav ul form{
+    background-color: white;
+}
+nav ul form select{
+    background-color: white !important;
+    border: none !important;
+}
+nav ul form select:hover{
+    cursor: pointer;
+}
+nav ul form select option{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #214E41;
+}
+@media(max-width: 900px){
+    nav .img{
+        text-align: center;
+    }
+    nav ul{
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    nav ul button{
+        width: 100%;
+        border-radius: 0px;
+    }
+}
